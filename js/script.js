@@ -13,7 +13,7 @@ const movieDB = {
 document.querySelectorAll('.promo__adv img').forEach(item => item.remove());
 document.querySelector('.promo__adv-title').remove();
 document.querySelector('.promo__genre').textContent = 'драма';
-document.querySelector('.promo__bg').style.backgroundImage = 'url("/img/bg.jpg")';
+document.querySelector('.promo__bg').style.backgroundImage = 'url("img/bg.jpg")';
 
 function newList() {
 	const list = document.querySelector('.promo__interactive-list');
